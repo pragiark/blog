@@ -3,7 +3,8 @@ from .models import Post
 
 # admin.site.register(Post)
 
-#Now i ude decorators to personalization Admin Panel.
+# Now i use decorators to personalization Admin Panel.
+
 
 @admin.register(Post)
 class PostAdmin(admin.ModelAdmin):
